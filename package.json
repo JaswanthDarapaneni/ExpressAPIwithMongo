@@ -4,7 +4,8 @@
   "description": "Mongoose with expressjs Api development",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "concurrently \"yarn build\" \"yarn start-server\"",
+    "start-server": "node src/app.js",
     "dev": "nodemon src/app.js",
     "build": "tsc"
   },
