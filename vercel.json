@@ -1,12 +1,14 @@
 {
     "version": 2,
     "name": "api",
-    "builds": [
-      { "src": "src/app.js", "use": "@vercel/node", "output": "public/*.js" }
-    ],
+    "buildCommand": "yarn build",
+    "framework": "nodejs",
+    "installCommand": "yarn install",
+    "outputDirectory": "build",
     "routes": [
       { "src": "/api/(.*)", "dest": "src/app.js" }
     ]
+    
     
   }
   
