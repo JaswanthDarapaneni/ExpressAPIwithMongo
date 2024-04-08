@@ -10,7 +10,7 @@
     "functions": {
         "api": {
           "runtime": "nodejs14.x",
-          "memory": 1024,
+          "memory": 513,
           "includeFiles": "src/app.js"
         }
       }
