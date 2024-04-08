@@ -38,9 +38,13 @@ const loginUser = async (req, res) => {
 const getUserProfile = (req, res) => {
   res.json({ userId: req.body.userId });
 };
+const getUserworkingStatus = (req, res) => {
+  res.json({status: "Working"});
+};
 
 module.exports = {
   registerUser,
   loginUser,
   getUserProfile,
+  getUserworkingStatus
 };
