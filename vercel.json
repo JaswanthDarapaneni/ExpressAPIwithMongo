@@ -2,7 +2,15 @@
     "builds": [
       { "src": "package.json", "use": "@vercel/node" },
       { "src": "build/index.js", "use": "@vercel/static" }
-    ]
+    ],
+    "routes": [
+        {
+          "src": "api/src/app.js",
+          "dest": "build/index.js"
+        }
+      ]
+      
+
 
 }
   
