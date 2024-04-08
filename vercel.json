@@ -1,12 +1,8 @@
+{
+    "builds": [
+      { "src": "package.json", "use": "@vercel/node" },
+      { "src": "build/index.js", "use": "@vercel/static" }
+    ]
 
-    {
-        "functions": {
-          "api/src/app.js": {
-            "memory": 3009,
-            "maxDuration": 30
-          }
-        }
-      }
-
-
+}
   

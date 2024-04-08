@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "babel src/app.js --out-file dist/index.js"
+    "build": "babel src/app.js --out-file build/index.js"
   },
   "keywords": [],
   "author": "Jaswanth Darapaneni krishna",
