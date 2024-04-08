@@ -2,18 +2,11 @@
     "version": 2,
     "name": "api",
     "builds": [
-      { "src": "src/app.js", "use": "@vercel/node" }
+      { "src": "src/app.js", "use": "@vercel/node", "output": "public/*.js" }
     ],
     "routes": [
       { "src": "/api/(.*)", "dest": "src/app.js" }
-    ],
-    "functions": {
-        "api": {
-          "runtime": "nodejs14.x",
-          "memory": 513,
-          "includeFiles": "src/app.js"
-        }
-      }
+    ]
     
   }
   
