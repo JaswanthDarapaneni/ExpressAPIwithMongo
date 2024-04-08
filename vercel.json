@@ -2,7 +2,6 @@
     "version": 2,
     "name": "api",
     "buildCommand": "yarn build",
-    "framework": "nodejs",
     "installCommand": "yarn install",
     "outputDirectory": "build",
     "routes": [
