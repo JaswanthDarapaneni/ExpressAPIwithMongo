@@ -8,6 +8,6 @@ const userRoutes = express.Router();
 userRoutes.post('/register', registerUser);
 userRoutes.post('/login', loginUser);
 userRoutes.get('/profile', verifyToken, getUserProfile);
-userRoutes.get('WorkingStatus', getUserworkingStatus )
+userRoutes.get('WorkingStatus', getUserworkingStatus)
 
 module.exports = { userRoutes };
