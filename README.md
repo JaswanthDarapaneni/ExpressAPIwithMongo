@@ -26,13 +26,15 @@ This project is a Node.js web application built with Express.js and MongoDB. It 
 
 
 ### Note
+
 <h2>Application Hosted at: <a>https://expressapiwithmongo.onrender.com</a></h2>
-If the link not work don't feel hested. just try to run the application local server . That will be work fine. all you need to do is change the config file
+1. If the link not work don't feel hested. just try to run the application local server . That will be work fine. all you need to do is change the config file
 databseUrl = `local mongoDb uri`. 
-or 
-you wanted to test this just mail me . I will restart server `jaswanthdarapaneni19@gmail.com`.
-or 
-I will provide the hosted DatabaseURI.
+**OR
+2. You wanted to test throw server just mail me . I will restart server `jaswanthdarapaneni19@gmail.com`.
+**OR 
+3. I will provide the hosted DatabaseURI. Thia will be work from local server. becouse i hosted dabase in saparate server.
+
 ### Deployment
 This project is deployed on [Render](https://render.com/). To deploy:
 1. Sign up for a Render account.
